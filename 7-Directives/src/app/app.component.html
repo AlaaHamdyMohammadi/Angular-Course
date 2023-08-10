@@ -8,6 +8,11 @@
       </ul>
       <p appBasicHighlight [defaultColor]="'yellow'" [highlightColor]="'red'">Style from custom directive</p>
       <!-- <p appBetterHighlight [defaultColor]="'yellow'">Style from custom basic directive</p> -->
+      <div [ngSwitch]="value">
+        <p *ngSwitchCase="5">value = 5</p>
+        <p *ngSwitchCase="10">value = 10</p>
+        <p *ngSwitchCase="15">value = 15</p>
+      </div>
     </div>
   </div>
 </div>

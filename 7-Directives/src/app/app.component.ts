@@ -9,4 +9,5 @@ export class AppComponent {
   title = '7-Directives';
   numbers = [1,2,3,4,5];
   onlyOdd = false;
+  value = 15;
 }
